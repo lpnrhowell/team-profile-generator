@@ -34,6 +34,4 @@ javascript
 node.js
 font awesome
 
-# team-profile-generator
-# team-profile-generator
-# team-profile-generator
+
