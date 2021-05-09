@@ -9,6 +9,9 @@ A prompt is giving to user for information about the employee and then informati
 
 walk-through
 
+https://user-images.githubusercontent.com/79549867/117557625-efa79700-b042-11eb-8838-22f43b4ab02e.mov
+
+
 ---
 For example: 
 If you select "intern" you will need to fill out
