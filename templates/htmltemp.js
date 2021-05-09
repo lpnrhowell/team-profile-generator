@@ -84,16 +84,19 @@
 
         if (arr.title === "Manager") {
             roleInfo = `Office Number: ${arr.officeNumber}`
+            icon= `mug-hot`
         } else if (arr.title === "Engineer") {
-            roleInfo = `Github: ${arr.github}`
+            roleInfo = `Github: <a href="${arr.github}" style="font-size:15px">${arr.github}</a>`
+            icon= `robot`
         } else if (arr.title === "Intern") {
             roleInfo = `School: ${arr.school}`
+            icon = `graduation-cap`
         }
 
         return `<div class="card">
 <div class="card-header">
     <h2>${arr.name.toUpperCase()}</h2>  
-    <h2><i class="far fa-user"></i> ${arr.title}</h2>
+    <h2><i class="fas fa-${icon}"></i> ${arr.title}</h2>
     <hr>
 </div>
 <div class="card-body">
@@ -102,7 +105,7 @@
         <li>${arr.id}</li>
         <li>Email:</li>
         <li>${arr.email}</li>
-        <li>${roleInfo.toUpperCase()} </li>
+        <li>${roleInfo} </li>
     </ul>
 </div>
 </div>`
