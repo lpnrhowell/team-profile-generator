@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Team Profile Generator",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpnrhowell/team-profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com//lpnrhowell"
+  },
+  "homepage": "https://github.com/lpnrhowell/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.0.3",
+    "jest": "^24.9.0"
+  }
+}
